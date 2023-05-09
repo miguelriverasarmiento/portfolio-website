@@ -27,15 +27,15 @@ const About = () => {
               <div className="flex flex-row gap-2 font-normal text-slate-300">
                 <div className='text-[22px] w-[22px] md:mt-1'>
                 <CiCalendarDate className='text-red-800'/></div>
-                Nacimiento<div className='gap-2 text-red-800'>:</div>
-                <div className='gap-2 text-slate-300'>15-02-1990</div>  
+                Nacimiento :<div className='gap-2 text-slate-300'>
+                  15-02-1990</div>  
               </div>
 
               <div className="flex flex-row gap-2 font-normal text-slate-300">
                 <div className='text-[22px] w-[22px] md:mt-1'>
                 <FaGraduationCap className='text-red-800'/></div>
-                Estudio<div className='gap-2 text-red-800'>:</div>
-                <div className='gap-2 text-slate-300'>Master Javascript y Typescript en Udemy</div> 
+                Estudio :<div className='gap-2 text-slate-300'>
+                  Master Javascript y Typescript en Udemy</div>
               </div>
             </div>
 

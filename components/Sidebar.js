@@ -12,10 +12,10 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
         </div>
 
         <div className="flex flex-col gap-4 text-[28px]">
-            <a className="hover-text-[#ff4D41]" href='#'>Home</a>
-            <a className="hover-text-[#ff4D41]" href='#'>Acerca de mi</a>
-            <a className="hover-text-[#ff4D41]" href='#'>Portafolio</a>
-            <a className="hover-text-[#ff4D41]" href='#'>Contacto</a>
+            <a className="hover-text-[#ff4D41]" href='/'>Inicio</a>
+            <a className="hover-text-[#ff4D41]" href='/About'>Acerca de mi</a>
+            <a className="hover-text-[#ff4D41]" href='/Projects'>Proyectos</a>
+            <a className="hover-text-[#ff4D41]" href='/Contact'>Contacto</a>
         </div>
     
     </div>

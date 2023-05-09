@@ -1,5 +1,6 @@
 import React from 'react'
 import {RiCloseFill} from 'react-icons/ri'
+import Link from 'next/link'
 
 const Sidebar = ({isOpen, toggleSidebar}) => {
   return (
@@ -12,10 +13,10 @@ const Sidebar = ({isOpen, toggleSidebar}) => {
         </div>
 
         <div className="flex flex-col gap-4 text-[28px]">
-            <a className="hover-text-[#ff4D41]" href='/'>Inicio</a>
-            <a className="hover-text-[#ff4D41]" href='/About'>Acerca de mi</a>
-            <a className="hover-text-[#ff4D41]" href='/Projects'>Proyectos</a>
-            <a className="hover-text-[#ff4D41]" href='/Contact'>Contacto</a>
+            <Link className="hover-text-[#ff4D41]" href='/' legacyBehavior>Inicio</Link>
+            <Link className="hover-text-[#ff4D41]" href='/About' legacyBehavior>Acerca de mi</Link>
+            <Link className="hover-text-[#ff4D41]" href='/Projects' legacyBehavior>Proyectos</Link>
+            <Link className="hover-text-[#ff4D41]" href='/Contact' legacyBehavior>Contacto</Link>
         </div>
     
     </div>

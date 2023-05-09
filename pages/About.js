@@ -2,7 +2,8 @@ import React from 'react'
 import Heading from '../components/Heading'
 import {CiCalendarDate} from 'react-icons/ci'
 import {FaGraduationCap} from 'react-icons/fa'
-import Button from '../components/Button';
+import Button from '../components/Button'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -12,10 +13,15 @@ const About = () => {
 
       <Heading title="Acerca de mí" />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-[40px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px] sm:gap-[50px] md:gap-[80px]">
 
         <div className='justify-self-center w-[250px]'>
-          <img className="w-[400px] border-slate-400" src="/img/myPhoto.jpeg" alt=""/>
+          <Image 
+            className="border-slate-400" 
+            src="/img/myPhoto.jpeg" 
+            width={400} 
+            height={400}
+            alt=""/>
         </div>
 
         <div className='col-span-2'>
@@ -27,14 +33,14 @@ const About = () => {
               <div className="flex flex-row gap-2 font-normal text-slate-300">
                 <div className='text-[22px] w-[22px] md:mt-1'>
                 <CiCalendarDate className='text-red-800'/></div>
-                Nacimiento :<div className='gap-2 text-slate-300'>
+                Nacimiento&nbsp;: <div className='gap-2 text-slate-300'>
                   15-02-1990</div>  
               </div>
 
               <div className="flex flex-row gap-2 font-normal text-slate-300">
                 <div className='text-[22px] w-[22px] md:mt-1'>
                 <FaGraduationCap className='text-red-800'/></div>
-                Estudio :<div className='gap-2 text-slate-300'>
+                Estudio&nbsp;: <div className='gap-2 text-slate-300'>
                   Master Javascript y Typescript en Udemy</div>
               </div>
             </div>

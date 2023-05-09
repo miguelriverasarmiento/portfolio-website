@@ -3,6 +3,7 @@ import Heading from '../components/Heading'
 import {TbLink} from 'react-icons/tb'
 import {RiGitRepositoryLine} from 'react-icons/ri'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Projects = () => {
   return (
@@ -13,7 +14,8 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
             <div className="flex flex-col items-center relative group">
-                <img className="w-[70%] h-[100%] shadow-2xl" src='/img/premier-app.png' alt=''/>
+                <Image className="w-[70%] h-[100%] shadow-2xl"  width={300} 
+                height={300} src='/img/premier-app.png' alt=''/>
                 <div className="bg-[#000000bd] absolute w-[70%] h-[100%]
                 top-0 opacity-0 transition duraction-500 group-hover:opacity-100
                 grid place-items-center text-purple-600 text-[12px] sm:text-[15px] 
@@ -43,7 +45,8 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col items-center relative group">
-                <img className="w-[70%] h-[100%] shadow-xl" src='/img/poke-fg.png' alt=''/>
+                <Image className="w-[70%] h-[100%] shadow-xl"  width={300} 
+                height={300} src='/img/poke-fg.png' alt=''/>
                 <div className="bg-[#000000bd] absolute w-[70%] h-[100%]
                 top-0 opacity-0 transition duraction-500 group-hover:opacity-100
                 grid place-items-center text-green-700 text-[12px] sm:text-[15px] 

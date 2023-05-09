@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+@layer components {
+  .btn{
+    @apply bg-sky-900 text-stone-500 py-2 px-4 rounded inline-block mt-10
+    font-medium border border-stone-700 hover:bg-transparent hover:text-sky-800
+    transition duration-200
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .inputStyle{
+    @apply outline-[#ff4D41] border-gray-400 border
+    rounded-[5px] px-4 py-2 w-[100%]
+  }
 }

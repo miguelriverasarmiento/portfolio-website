@@ -11,12 +11,12 @@ const Projects = () => {
 
         <Heading title="Proyectos"/>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid place-items-center grid-cols-1 md:grid-cols-2 gap-6">
 
             <div className="flex flex-col items-center relative group">
-                <Image className="w-[70%] h-[100%] shadow-2xl"  width={300} 
+                <Image className="w-[100%] h-[100%] shadow-2xl"  width={300} 
                 height={300} src='/img/premier-app.png' alt=''/>
-                <div className="bg-[#000000bd] absolute w-[70%] h-[100%]
+                <div className="bg-[#000000bd] absolute w-[100%] h-[100%]
                 top-0 opacity-0 transition duraction-500 group-hover:opacity-100
                 grid place-items-center text-purple-600 text-[12px] sm:text-[15px] 
                 md:text-[17px]">
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className='lex flex-col text-left px-3 py-3 text-[12px] sm:text-[15px] font-mono 
+            <div className='flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950'>
                 Este proyecto es una pagina web de informacion
                 acerca de la premier league, contiene equipos,
@@ -45,9 +45,9 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col items-center relative group">
-                <Image className="w-[70%] h-[100%] shadow-xl"  width={300} 
+                <Image className="w-[100%] h-[100%] shadow-xl"  width={300} 
                 height={300} src='/img/poke-fg.png' alt=''/>
-                <div className="bg-[#000000bd] absolute w-[70%] h-[100%]
+                <div className="bg-[#000000bd] absolute w-[100%] h-[100%]
                 top-0 opacity-0 transition duraction-500 group-hover:opacity-100
                 grid place-items-center text-green-700 text-[12px] sm:text-[15px] 
                 md:text-[17px]">
@@ -55,7 +55,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col text-left px-3 py-3 text-[12px] sm:text-[15px] font-mono
+            <div className='flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono
             shadow-2xl shadow hover:shadow-xl text-teal-950'>
                 Este proyecto es una pagina web de Pokemon 
                 que contiene una lista, busqueda por nombre,

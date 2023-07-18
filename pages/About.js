@@ -18,7 +18,7 @@ const About = () => {
         <div className='justify-self-center w-[250px]'>
           <Image 
             className="border-slate-400" 
-            src="/img/miguel2023.png" 
+            src="/img/miguelRiv2023.png" 
             width={400} 
             height={400}
             alt=""/>

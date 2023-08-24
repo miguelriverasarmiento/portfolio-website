@@ -24,7 +24,7 @@ const Navbar = ({toggleSidebar}) => {
                         <a className='hover:text-sky-950'>Contacto</a>
                     </Link>
                 </div>
-                <a href="./Miguel_Rivera_cv.pdf" className='hidden md:flex border border-stone-700 px-4 py-1 text-stone-950 rounded-[5px] 
+                <a href="./miguelRivera.pdf" className='hidden md:flex border border-stone-700 px-4 py-1 text-stone-950 rounded-[5px] 
                     items-center gap-2 hover:text-sky-950 transition duration-200'>
                         Descargar CV
                     <FcDownload />

@@ -13,6 +13,34 @@ const Projects = () => {
 
         <div className="grid place-items-center grid-cols-1 md:grid-cols-2 gap-6">
 
+        <div className="flex flex-col items-center relative group">
+                <Image className="w-[100%] h-[100%] shadow-2xl"  width={300} 
+                height={300} src='/img/calculator.png' alt=''/>
+                <div className="bg-[#000000bd] absolute w-[100%] h-[100%]
+                top-0 opacity-0 transition duraction-500 group-hover:opacity-100
+                grid place-items-center text-red-300 text-[12px] sm:text-[15px] 
+                md:text-[17px]">
+                    Calculadora
+                </div>
+            </div>
+
+            <div className='flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
+            shadow-2xl shadow hover:shadow-xl text-teal-950'>
+                Este proyecto es una aplicacion web para realizar operaciones
+                aritmeticas basicas, tiene implementada la libreria Math.js.
+                Esta hecha con react, html, y css.
+                <div className='flex flex-col text-left mt-2 rounded shadow-sm'>
+                    <div className="flex flex-row">
+                        <div><TbLink className='text-red-800 text-[22px] pr-1'/></div>
+                        <div><Link href="https://calculadora-kappa-rust.vercel.app/">Ir a Calculadora</Link></div>
+                    </div>
+                    <div className="flex flex-row">
+                        <div><RiGitRepositoryLine className='text-red-800 text-[22px] pr-1'/></div>
+                        <div><Link href="https://github.com/miguelriverasarmiento/Calculadora">Ir a repositorio</Link></div>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex flex-col items-center relative group">
                 <Image className="w-[100%] h-[100%] shadow-2xl"  width={300} 
                 height={300} src='/img/triqui.png' alt=''/>

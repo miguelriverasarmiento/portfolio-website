@@ -16,6 +16,56 @@ const Projects = () => {
             className="w-[100%] h-[100%] shadow-2xl"
             width={300}
             height={300}
+            src="/img/task-manager.png"
+            alt=""
+          />
+          <div
+            className="bg-[#000000bd] absolute w-[100%] h-[100%]
+                top-0 opacity-0 transition duraction-500 group-hover:opacity-100
+                grid place-items-center text-blue-300 text-[12px] sm:text-[15px] 
+                md:text-[17px]"
+          >
+            Task Manager SaaS
+          </div>
+        </div>
+
+        <div
+          className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
+            shadow-2xl shadow hover:shadow-xl text-teal-950"
+        >
+          Este proyecto es una aplicacion web tipo SaaS para guardar tareas
+          personales por hacer. Maneja el estado con zustand y esta hecho con
+          react, typeScript, tailwind y supabase para autenticacion y base de
+          datos.
+          <div className="flex flex-col text-left mt-2 rounded shadow-sm">
+            <div className="flex flex-row">
+              <div>
+                <TbLink className="text-red-800 text-[22px] pr-1" />
+              </div>
+              <div>
+                <Link href="https://task-manager-saa-s.vercel.app/">
+                  Ir a Task manager saas
+                </Link>
+              </div>
+            </div>
+            <div className="flex flex-row">
+              <div>
+                <RiGitRepositoryLine className="text-red-800 text-[22px] pr-1" />
+              </div>
+              <div>
+                <Link href="https://github.com/miguelriverasarmiento/Task-manager-SaaS">
+                  Ir a repositorio
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center relative group">
+          <Image
+            className="w-[100%] h-[100%] shadow-2xl"
+            width={300}
+            height={300}
             src="/img/buscador.png"
             alt=""
           />

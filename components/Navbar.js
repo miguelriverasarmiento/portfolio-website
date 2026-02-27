@@ -11,16 +11,16 @@ const Navbar = ({ toggleSidebar }) => {
 
         <div className="hidden md:flex gap-6">
           <Link href="/Photo" legacyBehavior>
-            <a className="hover:text-sky-950">Inicio</a>
+            <a className="hover:text-sky-950">Start</a>
           </Link>
           <Link href="/About" legacyBehavior>
-            <a className="hover:text-sky-950">Acerca de mi</a>
+            <a className="hover:text-sky-950">About me</a>
           </Link>
           <Link href="/Projects" legacyBehavior>
-            <a className="hover:text-sky-950">Proyectos</a>
+            <a className="hover:text-sky-950">Projects</a>
           </Link>
           <Link href="/Contact" legacyBehavior>
-            <a className="hover:text-sky-950">Contacto</a>
+            <a className="hover:text-sky-950">Contact</a>
           </Link>
         </div>
         <a
@@ -28,7 +28,7 @@ const Navbar = ({ toggleSidebar }) => {
           className="hidden md:flex border border-stone-700 px-4 py-1 text-stone-950 rounded-[5px] 
                     items-center gap-2 hover:text-sky-950 transition duration-200"
         >
-          Descargar CV
+          Download CV
           <FcDownload />
         </a>
 

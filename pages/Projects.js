@@ -33,10 +33,10 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una aplicacion web tipo SaaS para guardar tareas
-          personales por hacer. Maneja el estado con zustand y esta hecho con
-          react, typeScript, tailwind y supabase para autenticacion y base de
-          datos.
+          This project is a SaaS web application for saving personal to-do
+          lists. It manages state with zustand and is built with React,
+          TypeScript, Tailwind, and Supabase for authentication and database
+          management.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -44,7 +44,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://task-manager-saa-s.vercel.app/">
-                  Ir a Task manager saas
+                  Go to Task manager saas
                 </Link>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/Task-manager-SaaS">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                 grid place-items-center text-red-300 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Buscador de imagenes
+            Image search engine
           </div>
         </div>
 
@@ -83,9 +83,8 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una aplicacion web para hacer busqueda y descarga de
-          imagenes, utiliza la api de unsplash. Esta hecha con react, html, y
-          css.
+          This project is a web application for searching and downloading
+          images, using the Unsplash API. It is built with React, HTML, and CSS.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -93,7 +92,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://buscador-de-imagenes-phi.vercel.app/">
-                  Ir a Buscador de imagenes
+                  Go to Buscador de imagenes
                 </Link>
               </div>
             </div>
@@ -103,7 +102,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/Buscador-de-imagenes">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -124,7 +123,7 @@ const Projects = () => {
                 grid place-items-center text-red-300 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Calculadora
+            Calculator
           </div>
         </div>
 
@@ -132,9 +131,9 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una aplicacion web para realizar operaciones
-          aritmeticas basicas, tiene implementada la libreria Math.js. Esta
-          hecha con react, html, y css.
+          This project is a web application for performing basic arithmetic
+          operations, using the Math.js library. It is built with React, HTML,
+          and CSS.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -142,7 +141,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://calculadora-kappa-rust.vercel.app/">
-                  Ir a Calculadora
+                  Go to Calculadora
                 </Link>
               </div>
             </div>
@@ -152,7 +151,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/Calculadora">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -181,10 +180,9 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es el popular juego llamado triqui, contiene una
-          estructura basica con el hook useState y una division de componentes
-          para facilitar la reutilizacion de codigo. Esta hecho con react, html
-          y css.
+          This project is the popular game called Tic-Tac-Toe. It contains a
+          basic structure with the useState hook and a component division to
+          facilitate code reuse. It is built with React, HTML, and CSS
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -192,7 +190,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://triqui-game-smoky.vercel.app/">
-                  Ir a Triqui Game
+                  Go to Triqui Game
                 </Link>
               </div>
             </div>
@@ -202,7 +200,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/Juego-Triqui">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -231,9 +229,9 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una aplicacion web para realizar cuestionarios de
-          diferentes areas, cada una de ellas con cinco preguntas aleatorias de
-          opcion multiple. Esta hecho con react, html y tailwind.css.
+          This project is a web application for creating quizzes in different
+          areas, each with five randomly generated multiple-choice questions. It
+          is built using React, HTML, and Tailwind.css.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -241,7 +239,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://quiz-app-24.vercel.app/">
-                  Ir a Quiz App
+                  Go to Quiz App
                 </Link>
               </div>
             </div>
@@ -251,7 +249,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/Quiz-App">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -272,7 +270,7 @@ const Projects = () => {
                 grid place-items-center text-gray-400 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Aplicacion para gestionar ingresos y gastos
+            Application for managing income and expenses
           </div>
         </div>
 
@@ -280,10 +278,10 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una aplicacion web para registrar ingresos y gastos y
-          asi obtener un balance. Utiliza el hook useContext y useReducer, la
-          biblioteca Victory permite utilizar el grafico. Esta hecho con react,
-          html y tailwind.css.
+          This project is a web application for recording income and expenses
+          and thus obtaining a balance. It uses the useContext and useReducer
+          hooks, and the Victory library allows you to use the graph. It is made
+          with React, HTML, and tailwind.css.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -291,7 +289,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://app-to-manage-expenses-and-income.vercel.app/">
-                  Ir a gestion de ingresos y gastos
+                  Go to income and expense management
                 </Link>
               </div>
             </div>
@@ -301,7 +299,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/App-to-manage-expenses-and-income">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -322,7 +320,7 @@ const Projects = () => {
                 grid place-items-center text-yellow-600 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Pagina de tienda online
+            Online store page
           </div>
         </div>
 
@@ -330,9 +328,9 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una pagina web de una tienda online de instrumentos
-          musicales. Utiliza el hook useContext para manejar metodos y variables
-          globalmente. Esta hecho con react, javascript, html y tailwind.css.
+          This project is a website for an online musical instrument store. It
+          uses the useContext hook to manage methods and variables globally. It
+          is built with React, JavaScript, HTML, and tailwind.css.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -340,7 +338,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://mgars-store.vercel.app/">
-                  Ir a mg-ars store
+                  Go to mg-ars store
                 </Link>
               </div>
             </div>
@@ -350,7 +348,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/tienda-online">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -371,7 +369,7 @@ const Projects = () => {
                 grid place-items-center text-blue-300 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Pagina web del clima
+            Weather website
           </div>
         </div>
 
@@ -379,10 +377,10 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una pagina web donde se puede buscar el clima de
-          cualquier ciudad, utiliza una api de clima la cual provee metodos de
-          longitud y latitud para obtener el mapa de google maps. Esta hecho con
-          react, y CSS Modules.
+          This project is a website where you can search for the weather in any
+          city. It uses a weather API that provides latitude and longitude
+          methods to obtain the Google Maps map. It is made with React and CSS
+          Modules.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -390,7 +388,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://a-weather-app.vercel.app/">
-                  Ir a-weather-app
+                  Go to weather-app
                 </Link>
               </div>
             </div>
@@ -400,7 +398,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/weather-app">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -421,7 +419,7 @@ const Projects = () => {
                 grid place-items-center text-red-400 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Pagina recordatorio de libros
+            Book reminder page
           </div>
         </div>
 
@@ -429,10 +427,9 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono 
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una pagina web en la que se puede guardar referencias
-          de libros, utiliza localStorage y el hook useContext para manejar
-          metodos y variables globalmente. Esta hecho con react, objetos de
-          estilo css y CSS Modules.
+          This project is a website where you can save book references. It uses
+          localStorage and the useContext hook to manage methods and variables
+          globally. It is built with React, CSS style objects, and CSS Modules.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -440,7 +437,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://book-reminder.vercel.app/">
-                  Ir a book-reminder
+                  Go to book-reminder
                 </Link>
               </div>
             </div>
@@ -450,7 +447,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/book-reminder">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>
@@ -471,7 +468,7 @@ const Projects = () => {
                 grid place-items-center text-green-400 text-[12px] sm:text-[15px] 
                 md:text-[17px]"
           >
-            Pagina de Pokemon
+            Pokemon Page
           </div>
         </div>
 
@@ -479,9 +476,9 @@ const Projects = () => {
           className="flex flex-col text-left w-[80%] px-3 py-3 text-[12px] sm:text-[15px] font-mono
             shadow-2xl shadow hover:shadow-xl text-teal-950"
         >
-          Este proyecto es una pagina web de Pokemon que contiene una lista,
-          busqueda por nombre, paginacion, y caracteristicas de cada uno con su
-          imagen. Esta hecho con next.js, react, graphQL y CSS Modules.
+          This project is a Pokémon website that contains a list, search by
+          name, pagination, and characteristics of each one with its image. It
+          is made with next.js, react, graphQL, and CSS Modules.
           <div className="flex flex-col text-left mt-2 rounded shadow-sm">
             <div className="flex flex-row">
               <div>
@@ -489,7 +486,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://pokemon-fg.vercel.app/">
-                  Ir a pokemon-fg
+                  Go to pokemon-fg
                 </Link>
               </div>
             </div>
@@ -499,7 +496,7 @@ const Projects = () => {
               </div>
               <div>
                 <Link href="https://github.com/miguelriverasarmiento/poke-graphql">
-                  Ir a repositorio
+                  Go to repository
                 </Link>
               </div>
             </div>

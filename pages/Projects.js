@@ -8,7 +8,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <div className="mx-auto py-10 px-8 bg-gray-400">
-      <Heading title="Proyectos" />
+      <Heading title="Projects" />
 
       <div className="grid place-items-center grid-cols-1 md:grid-cols-2 gap-6">
         <div className="flex flex-col items-center relative group">

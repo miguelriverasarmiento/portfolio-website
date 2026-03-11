@@ -5,7 +5,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section className="mx-auto pt-10 pb-20 px-8 bg-gray-300">
-      <Heading title="Habilidades" />
+      <Heading title="Skills" />
 
       <div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-3 gap-5">
         <div
@@ -22,7 +22,7 @@ const Skills = () => {
           Javascript
           <div className="grid grid-cols-3 place-items-center text-gray-700 text-[12px] font-medium">
             <div className="bg-gray-700 h-[4px] w-[28px] col-span-2"></div>
-            <div>&nbsp;80%</div>
+            <div>&nbsp;90%</div>
           </div>
         </div>
 
@@ -58,7 +58,7 @@ const Skills = () => {
           Typescript
           <div className="grid grid-cols-3 place-items-center text-gray-700 text-[12px] font-medium">
             <div className="bg-gray-700 h-[4px] w-[24px] col-span-2"></div>
-            <div>&nbsp;60%</div>
+            <div>&nbsp;90%</div>
           </div>
         </div>
 
@@ -130,7 +130,7 @@ const Skills = () => {
           Tailwind CSS
           <div className="grid grid-cols-3 place-items-center text-gray-700 text-[12px] font-medium">
             <div className="bg-gray-700 h-[4px] w-[28px] col-span-2"></div>
-            <div>&nbsp;80%</div>
+            <div>&nbsp;90%</div>
           </div>
         </div>
       </div>

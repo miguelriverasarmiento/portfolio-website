@@ -24,7 +24,7 @@ const Navbar = ({ toggleSidebar }) => {
           </Link>
         </div>
         <a
-          href="./Miguel_Rivera_CV.pdf"
+          href="./Miguel_Rivera_CV_En.pdf"
           className="hidden md:flex border border-stone-700 px-4 py-1 text-stone-950 rounded-[5px] 
                     items-center gap-2 hover:text-sky-950 transition duration-200"
         >
